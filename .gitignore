@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.gguf
+*.bin
+*.pt
+*.safetensors
+.DS_Store
