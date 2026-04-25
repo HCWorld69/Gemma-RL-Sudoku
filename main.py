@@ -8,7 +8,7 @@ def main():
     parser.add_argument(
         "--model_path", 
         type=str, 
-        default="/home/harshchandra/Documents/OpenSourceModels/Ollama_gemmaQ5_K_M/models/gguf/google_gemma-4-26B-A4B-it-Q5_K_M.gguf",
+        default="path/to/your/google_gemma-4-26B-A4B-it-Q5_K_M.gguf",
         help="Path to the .gguf Gemma model file"
     )
     parser.add_argument("--iterations", type=int, default=10, help="Number of RL iterations")
